@@ -1,0 +1,126 @@
+body{
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  margin: 0;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+header{
+  display: flex;
+  padding: 5px;
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+.logo{
+  margin: auto 0;
+  flex: 0;
+}
+
+.title{
+  flex: 1;
+  text-align: center;
+}
+
+.menu{
+  min-height: 100vh;
+  flex: 0 0 auto;
+  background-color: #0f2c53;
+}
+
+.menu ul{
+  list-style: none;
+  margin: 50px 0 10px;
+  padding: 0;
+}
+
+.menu ul li{
+  margin: 5px;
+  background-color: #0933aa;
+  border-radius: 5px;
+}
+
+.menu a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 5px 10px;
+}
+
+.page{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  padding: 15px 5px;
+  font-size: .8rem;
+  background-color: gainsboro;
+  color: black;
+}
+
+footer p{
+  margin: 2px 2px 0;
+  text-align: center;
+}
+
+.copyright{
+  display: flex;
+  color: #585252;
+  justify-content: space-around;
+}
+
+.content{
+  flex: 1;
+  padding: 0 2rem;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.content blockquote{
+  font-size: 2rem;
+  font-family: Helvetica;
+  font-style: italic;
+}
+
+.about{
+  flex: 1;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  padding: 0 2rem;
+}
+
+.contact-info{
+  flex: 1;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  padding: 0 2rem;
+}
+
+.expedient{
+  flex: 1;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: justify;
+  text-indent: 2rem;
+  padding: 0 2rem;
+}
