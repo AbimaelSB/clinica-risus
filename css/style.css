@@ -92,7 +92,7 @@ footer p{
   font-style: italic;
 }
 
-.about{
+.flex{
   flex: 1;
   font-size: larger;
   display: flex;
@@ -103,24 +103,71 @@ footer p{
   padding: 0 2rem;
 }
 
-.contact-info{
-  flex: 1;
-  font-size: larger;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: justify;
-  text-indent: 2rem;
-  padding: 0 2rem;
+#asterisco{
+  color: red;
+  font-weight: bolder;
 }
 
-.expedient{
-  flex: 1;
-  font-size: larger;
+#invitation{
+  text-align: center;
+}
+
+table{
+  text-align: center;
+  margin: 10px;
+  font-size: large;
+}
+
+table caption{
+  margin: 10px 0 5px;
+}
+
+table thead{
+  color: white;
+  background-color: black;
+}
+
+table thead tr th{
+  border: 1px solid black;
+}
+
+table thead tr:last-child th:first-child{
+  border-top-left-radius: 10px;
+}
+
+table thead tr:last-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+table tbody tr:hover{
+  background-color: cadetblue;
+}
+
+table tbody tr:nth-child(even){
+  background-color: aqua;
+}
+
+table tbody tr td{
+  border-bottom: 1px solid black;
+}
+
+table tbody tr:last-child td:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+table tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
+table tr td:nth-child(1){
+  text-align: left;
+}
+
+.contact-icons{
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  text-align: justify;
-  text-indent: 2rem;
-  padding: 0 2rem;
+  justify-content: space-evenly;
+}
+
+.contact-icons a{
+  text-indent: 0;
 }
