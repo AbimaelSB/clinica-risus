@@ -13,8 +13,8 @@ body{
 header{
   display: flex;
   padding: 5px;
-  font-size: 1.5rem;
   background-color: white;
+  font-size: 1.5rem;
 }
 
 .logo{
@@ -78,8 +78,8 @@ footer p{
 
 .content{
   flex: 1;
-  padding: 0 2rem;
-  font-size: larger;
+  padding: 0 10px;
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -94,13 +94,13 @@ footer p{
 
 .flex{
   flex: 1;
-  font-size: larger;
+  font-size: 1.2rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   text-align: justify;
   text-indent: 2rem;
-  padding: 0 2rem;
+  padding: 0 10px;
 }
 
 #asterisco{
@@ -115,7 +115,7 @@ footer p{
 table{
   text-align: center;
   margin: 10px;
-  font-size: large;
+  font-size: 1.1rem;
 }
 
 table caption{
@@ -166,6 +166,7 @@ table tr td:nth-child(1){
 .contact-icons{
   display: flex;
   justify-content: space-evenly;
+  font-size: 1rem;
 }
 
 .contact-icons a{
@@ -203,24 +204,48 @@ table tr td:nth-child(1){
 }
 
 .formulario form{
-  width: 75%;
+  width: 80%;
   padding: 1px;
 }
 
 .formulario form input[type="text"], input[type="email"]{
-  width: 97.8%;
+  width: 100%;
 }
 
 .formulario p{
-  font-size: medium;
+  font-size: 1rem;
   margin: 1px 0 1px;
 }
 
 #msg{
-  width: 97.8%;
+  width: 100%;
   resize: none;
 }
 
 .buttons{
   margin-bottom: 10px;
+}
+
+.hyphenate {
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+@media(max-width: 600px){
+  .container{
+    flex-direction: column;
+  }
+
+  .menu{
+    min-height: auto;
+  }
+
+  header{
+    font-size: 1rem;
+  }
+
+  .address{
+    width: 100%;
+  }
 }
