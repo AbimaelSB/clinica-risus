@@ -197,15 +197,30 @@ table tr td:nth-child(1){
   font-size: 1.5rem;
 }
 
-.formulario form textarea, input{
-  font-size: 1.5rem;
+.formulario form textarea, input, button{
+  font-size: 1.2rem;
   margin: 3px;
 }
 
-.formulario form input[type=text]{
-  width: 100px;
+.formulario form{
+  width: 75%;
+  padding: 1px;
+}
+
+.formulario form input[type="text"], input[type="email"]{
+  width: 97.8%;
 }
 
 .formulario p{
   font-size: medium;
+  margin: 1px 0 1px;
+}
+
+#msg{
+  width: 97.8%;
+  resize: none;
+}
+
+.buttons{
+  margin-bottom: 10px;
 }
