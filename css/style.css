@@ -169,5 +169,16 @@ table tr td:nth-child(1){
 }
 
 .contact-icons a{
+  padding: 0 5px;
   text-indent: 0;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.contact-icons a img{
+  padding: 5px;
 }
