@@ -232,6 +232,12 @@ table tr td:nth-child(1){
   hyphens: auto;
 }
 
+.subtitle{
+  color: #0933aa;
+  text-align: center;
+  text-indent: 0;
+}
+
 @media(max-width: 600px){
   .container{
     flex-direction: column;
